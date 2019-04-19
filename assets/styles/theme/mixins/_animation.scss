@@ -1,0 +1,5 @@
+﻿@mixin newsletter-animation($args...) {
+	-webkit-animation: Newsletter 18s ease infinite;
+	-moz-animation: Newsletter 18s ease infinite;
+	animation: Newsletter 18s ease infinite;
+}

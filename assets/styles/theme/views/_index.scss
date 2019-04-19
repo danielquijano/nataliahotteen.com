@@ -1,0 +1,80 @@
+﻿.view-index {
+	.carousel {
+		.owl-carousel {
+			.card {
+				&-img-overlay {
+					.card-title {
+						background-color: rgba(255, 20, 100, .85);
+						position: absolute;
+						bottom: 0;
+						left: 0;
+					}
+				}
+			}
+		}
+	}
+
+
+	.headline {
+		hr { border-top: 1px solid lighten($primary, 5%); }
+	}
+
+
+	.invited-models {
+		.row {
+			&.gutter-sm {
+				margin-right: -3px;
+				margin-left: -3px;
+			}
+
+			> div[class*="col"] {
+				padding-right: 3px;
+				padding-left: 3px;
+			}
+		}
+	}
+
+
+	.hottest-sets {
+		.card-columns {
+			@media (max-width: 767px) { @include column-count($columns: 2); }
+			@media (min-width: 768px) { @include column-count($columns: 3); }
+			@media (min-width: 992px) { @include column-count($columns: 4); }
+
+			@include column-gap($gap: 0.25rem);
+
+			> a {
+				@media (max-width: 575px) { display: inherit; }
+				@media (min-width: 576px) { display: inline-flex; }
+
+				.card {
+					overflow: hidden;
+
+					display: inline-block;
+
+					&:hover {
+						img { 
+							@include transform(scale(1.15));
+						}
+					}
+
+					img {
+						@include transition(all 0.25s ease);
+					}
+
+					&-img-overlay {
+						@include card-gradient;
+
+						.card-text {
+							text-shadow: 0 0 5px rgba(0, 0, 0, 0.60);
+							font-size: 0.9rem;
+							position: absolute;
+							bottom: 0; 
+							left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

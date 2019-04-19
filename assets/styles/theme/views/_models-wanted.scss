@@ -1,0 +1,12 @@
+﻿.view-models-wanted {
+	@include newsletter-gradient;
+	@include newsletter-animation;
+	@include newsletter-keyframes;
+
+	background-size: 300% 300%;
+
+    .model-scouting {
+        background-color: $primary;
+        padding: 5.5rem 0;
+    }
+}

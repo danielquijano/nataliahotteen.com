@@ -1,0 +1,15 @@
+﻿footer {
+	.no-gutters {
+		> div:nth-child(1) { 
+			background-color: darken($primary, 2.5%);
+		}
+
+		> div:nth-child(2) { 
+			background-color: darken($primary, 5.0%);
+		}
+
+		> div:nth-child(3) { 
+			background-color: darken($primary, 7.5%);
+		}
+	}
+}

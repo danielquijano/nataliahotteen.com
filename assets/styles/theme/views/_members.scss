@@ -1,0 +1,25 @@
+﻿.view-members {
+	@include newsletter-gradient;
+	@include newsletter-animation;
+	@include newsletter-keyframes;
+
+	background-size: 300% 300%;
+
+    .login {
+        padding: 2.5rem 0 3.5rem;
+
+		form {
+			.form-check {
+				position: inherit;
+				padding-left: 0;
+	
+				&-input {
+					@include transform(scale(1.30));
+	
+					position: inherit;
+					margin-left: 0;
+				}
+			}
+		}	
+	}
+}

@@ -1,0 +1,7 @@
+﻿.navbar-dark {
+	.navbar-nav {
+		.nav-link {
+			@include transition(all 0.25s ease);
+		}
+	}
+}
