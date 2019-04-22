@@ -6,7 +6,7 @@
 		<?php require 'shared/head.php'; ?>
 	</head>
 
-	<body class="<?php echo $bodyclass ?>">
+	<body class="<?php echo $body_class ?>">
 		<?php 
 			// warning modal
 			require 'shared/warning-modal.php';

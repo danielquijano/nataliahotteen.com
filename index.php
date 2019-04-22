@@ -1,21 +1,21 @@
-﻿<?php require 'shared/config.php' ?>
+﻿<?php require_once 'shared/config.php' ?>
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<?php require 'shared/head.php'; ?>
+		<?php require_once 'shared/head.php'; ?>
 	</head>
 
 	<body class="<?php echo $body_class ?>">
 		<?php 
 			// warning modal
-			require 'shared/warning-modal.php';
+			require_once 'shared/warning-modal.php';
 
 			// cookie alert
-			require 'shared/cookie-alert.php';
+			require_once 'shared/cookie-alert.php';
 
 			// navbar
-			require 'shared/navbar.php';
+			require_once 'shared/navbar.php';
 		?>
 
 		<!-- owl carrousel section -->
@@ -115,28 +115,28 @@
 
 		<?php
 			// newsletter section
-			require 'shared/newsletter.php';
+			require_once 'shared/newsletter.php';
 
 			// updates section
-			require 'shared/updates.php';
+			require_once 'shared/updates.php';
 
 			// features section
-			require 'shared/features.php';
+			require_once 'shared/features.php';
 
 			// call 2 action section
-			require 'shared/call2action.php';
+			require_once 'shared/call2action.php';
 
 			// footer section
-			require 'shared/footer.php';
+			require_once 'shared/footer.php';
 
 			// copyright section
-			require 'shared/copyright.php';
+			require_once 'shared/copyright.php';
 
 			// javascript libraries
-			require 'shared/libraries.php';
+			require_once 'shared/libraries.php';
 
 			// javascript scripts
-			require 'shared/scripts.php';
+			require_once 'shared/scripts.php';
 		?>
 	</body>
 </html>

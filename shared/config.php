@@ -39,6 +39,7 @@
 	// get canonical url
 	$canonical_url_building = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	
+	// Identify URL and set values
 	switch($_SERVER['PHP_SELF']){
 		case '/webapps/nataliahotteen.com/index.php':
 			$title = 'Natalia Hot Teen';
@@ -99,7 +100,7 @@
 	require_once 'navbar_config.php';
 
 	// index config
-	require_once 'index_config.php';
+	require_once 'footer_config.php';
 
 	// footer config
 	require_once 'index_config.php';
