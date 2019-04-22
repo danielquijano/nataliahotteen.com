@@ -1,12 +1,12 @@
 ﻿<?php require 'shared/config.php' ?>
 
 <!doctype html>
-<html ⚡ lang="en">
+<html lang="en">
 	<head>
 		<?php require 'shared/head.php'; ?>
 	</head>
 
-	<body class="<?php echo $bodyclass ?>">
+	<body class="<?php echo $body_class ?>">
 		<?php 
 			// warning modal
 			require 'shared/warning-modal.php';
@@ -22,16 +22,15 @@
 		<div class="carousel">
 			<div class="owl-carousel">
 				<?php 
-					foreach($carouselAttrs as $value){
+					foreach($carousel_attrs as $value){
 						echo '
-						<div class="card rounded-0">
-							<amp-img layout="responsive" width="335" height="562" class="card-img rounded-0" alt="' . $value['alt'] . '" title=""
-								src="' . $value['image'] . '">
-							</amp-img>
-							<div class="card-img-overlay">
-								<p class="card-title text-white py-1 pr-2 pl-1 mb-2 shadow-sm">' . $value['title'] . '</p>
+							<div class="card rounded-0">
+								<img width="335" height="562" class="card-img rounded-0" alt="" title="" src="' . $value['image'] . '">
+								<div class="card-img-overlay">
+									<p class="card-title text-white py-1 pr-2 pl-1 mb-2 shadow-sm">' . $value['title'] . '</p>
+								</div>
 							</div>
-						</div>';
+						';
 					}
 				?>
 			</div>
@@ -65,8 +64,12 @@
 				</div>
 				<div class="row gutter-sm">
 					<?php
-						foreach($invitedModelsAttrs as $value){
-							echo '<div class="' . $value['col'] . '"><picture><source media="(max-width: 767.98px)" srcset="' . $value['img-sm'] . '"><source media="(min-width: 768px)" srcset="' . $value['img-md'] . '"><source media="(min-width: 992px)" srcset="' . $value['img-lg'] . '"><img class="img-fluid lazy" alt="' . $value['alt'] . '" title="" data-src="' . $value['img-lg'] . '"></picture></div>';
+						foreach($invited_models_attrs as $value){
+							echo '
+								<div class="' . $value['col'] . '">
+									<img class="img-fluid lazy"  alt="' . $value['alt'] . '" title="' . $value['title'] . '" data-src="' . $value['img'] . '">
+								</div>
+							';
 						}
 					?>
 				</div>
@@ -88,8 +91,20 @@
 					<div class="col-12">
 						<div class="card-columns">
 							<?php 
-								foreach($hottestSetsAttrs as $value){
-									echo '<a href="' . $value['url'] . '"><div class="card rounded-0 mb-1"><img class="card-img rounded-0 lazy" data-src="' . $value['image'] . '" alt="' . $value['alt'] . '" title=""><div class="card-img-overlay p-0"><p class="card-title text-warning text-uppercase font-weight-bold mt-2 mb-0 px-3">' . $value['title'] . '</p><p class="card-title text-warning mb-0 px-3">' . $value['grades'] . '</p><p class="card-text text-white mb-0 pt-4 pb-3 px-3">' . $value['text'] . '</p></div></div></a>';
+								foreach($hottest_sets_attrs as $value){
+									echo '
+										<a href="' . $value['url'] . '">
+											<div class="card rounded-0 mb-1">
+												<img class="card-img rounded-0 lazy" alt="' . $value['alt'] . '" title="" data-src="' . $value['image'] . '">
+												
+												<div class="card-img-overlay p-0">
+													<p class="card-title text-warning text-uppercase font-weight-bold mt-2 mb-0 px-3">' . $value['title'] . '</p>
+													<p class="card-title text-warning mb-0 px-3">' . $value['grades'] . '</p>
+													<p class="card-text text-white mb-0 pt-4 pb-3 px-3">' . $value['text'] . '</p>
+												</div>
+											</div>
+										</a>
+									';
 								}
 							?>
 						</div>

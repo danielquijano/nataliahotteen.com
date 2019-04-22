@@ -11,7 +11,7 @@
 					<div class="collapse navbar-collapse" id="navbar">
 						<ul class="navbar-nav text-center nav-justified w-100">
 							<?php
-								foreach ($navbarAttrs as $key => $value) {
+								foreach ($navbar_attrs as $key => $value) {
 									echo '<li class="nav-item"><a class="nav-link h2 text-patua-one text-uppercase" href="' . $value['url'] . '"><i class="material-icons md-36 align-text-top">' . $value['icon'] . '</i> ' . $value['name'] . '</a></li>';
 								}
 							?>

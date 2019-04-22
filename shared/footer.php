@@ -7,7 +7,7 @@
 					<p class="h3 text-warning text-uppercase text-patua-one">Map</p>
 					<ul class="list-unstyled m-0">
 						<?php 
-							foreach ($footer_SiteMapAttrs as $key => $value) {
+							foreach ($sitemap_attrs as $key => $value) {
 								echo '<li><a class="btn btn-link text-light btn-sm p-0" title="' . $value['title'] . '" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
 							}
 						?>
@@ -19,7 +19,7 @@
 					<p class="h3 text-warning text-uppercase text-patua-one">We need you</p>
 					<ul class="list-unstyled m-0">
 						<?php
-							foreach ($footer_WeNeedYou as $key => $value) {
+							foreach ($models_wanted_attrs as $key => $value) {
 								echo '<li><a class="btn btn-link text-light btn-sm p-0" title="' . $value['title'] . '" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
 							}
 						?>
@@ -31,7 +31,7 @@
 					<p class="h3 text-warning text-uppercase text-patua-one">Agreement</p>
 					<ul class="list-unstyled m-0">
 						<?php
-							foreach ($footer_AgreementAttrs as $key => $value) {
+							foreach ($agreement_attrs as $key => $value) {
 								echo '<li><a class="btn btn-link text-light btn-sm p-0" title="' . $value['title'] . '" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
 							}
 						?>

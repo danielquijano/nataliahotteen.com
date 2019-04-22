@@ -111,7 +111,6 @@
 	});
 
 
-
 	// Front-end form validation
 	'use strict';
 
