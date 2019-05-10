@@ -88,20 +88,24 @@
 
 
 	// Urls
-	// Main
 	$url_join = 'join.php';
 	$url_index = 'index.php';
 	$url_members = 'members.php';
-
-	// We need you
 	$url_modelswanted = 'models-wanted.php';
 
-	// index config
+
+	// navbar config
 	require_once 'navbar_config.php';
 
 	// index config
-	require_once 'footer_config.php';
+	require_once 'index_config.php';
+
+	// updates config
+	require_once 'updates_config.php';
+
+	// features config
+	require_once 'features_config.php';
 
 	// footer config
-	require_once 'index_config.php';
+	require_once 'footer_config.php';
 ?>

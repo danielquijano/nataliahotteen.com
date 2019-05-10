@@ -11,7 +11,7 @@
 		</div>
 		<div class="row gutter-sm">
 			<?php
-				foreach ($featuresAttrs as $key => $value) {
+				foreach ($features_attrs as $key => $value) {
 					echo '<div class="' . $value['col'] . '"><div class="border py-3 px-1"><p class="text-center"><i class="material-icons md-66">' . $value['icon'] . '</i></p><p class="text-center mb-0 small text-uppercase">' . $value['descr'] . '</p></div></div>';
 				}
 			?>

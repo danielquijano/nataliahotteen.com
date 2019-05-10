@@ -1,5 +1,5 @@
 <?php
-	// Site Map
+	// Sitemap
 	$sitemap_attrs = array(
 		array(
 			'url'   => $url_index,
@@ -49,5 +49,5 @@
 			'name'  => '18 U.S.C. 2257',
 			'title' => '',
 		),
-    );
+	);
 ?>
