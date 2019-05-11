@@ -19,7 +19,6 @@
 <link rel="preload" href="assets/images/carousel/4.jpg" as="image">
 <link rel="preload" href="assets/images/carousel/5.jpg" as="image">
 <link rel="preload" href="assets/images/carousel/6.jpg" as="image">
-<link rel="preload" href="assets/images/carousel/7.jpg" as="image">
 
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">

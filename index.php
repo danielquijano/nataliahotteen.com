@@ -132,11 +132,8 @@
 			// copyright section
 			require_once 'shared/copyright.php';
 
-			// javascript libraries
+				// javascript libraries
 			require_once 'shared/libraries.php';
-
-			// javascript scripts
-			require_once 'shared/scripts.php';
 		?>
 	</body>
 </html>
