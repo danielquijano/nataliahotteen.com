@@ -25,7 +25,7 @@
 					foreach($carousel_attrs as $value){
 						echo '
 							<div class="card rounded-0">
-								<img width="335" height="562" class="card-img rounded-0" alt="" title="" src="' . $value['image'] . '">
+								<img class="card-img rounded-0" alt="" title="" src="' . $value['image'] . '">
 								<div class="card-img-overlay">
 									<p class="card-title text-white py-1 pr-2 pl-1 mb-2 shadow-sm">' . $value['title'] . '</p>
 								</div>
@@ -47,31 +47,6 @@
 						<p class="text-white text-justify text-md-center mb-0 lead">Spend hours of pure pleasure watching hot sexy girls masturbating to orgasm, cumming over, dancing sensually, stripping slowly in front of the camera, and getting fucked hard for just a few dollars like cheap street prostitutes. Man, you won't find these anywhere else on the entire internet.</p>
 					</div>
 					<div class="col-lg-1"></div>
-				</div>
-			</div>
-		</div>
-
-		<!-- invited model section -->
-		<div class="invited-models py-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-1"></div>
-					<div class="col-lg-10">
-						<h2 class="text-primary text-md-center text-patua-one h1">Ordinary Real Babes Doing Porn</h2>
-						<p class="text-justify text-md-center mt-3 mb-5 lead">Each one of them completely exclusive, adorable, cute, totally innocent, with a perfect body, and a dirty mind, between 18 - 23 years old, willing to do everything to satisfy your dark sexual fantasies, experiencing their first encounter in the pornography industry, and looking to become the hottest pornstars.</p>
-					</div>
-					<div class="col-lg-1"></div>
-				</div>
-				<div class="row gutter-sm">
-					<?php
-						foreach($invited_models_attrs as $value){
-							echo '
-								<div class="' . $value['col'] . '">
-									<img class="img-fluid lazy"  alt="' . $value['alt'] . '" title="' . $value['title'] . '" data-src="' . $value['img'] . '">
-								</div>
-							';
-						}
-					?>
 				</div>
 			</div>
 		</div>
@@ -113,10 +88,32 @@
 			</div>
 		</div>
 
-		<?php
-			// newsletter section
-			require_once 'shared/newsletter.php';
+		<!-- invited model section -->
+		<div class="invited-models py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-10">
+						<h2 class="text-primary text-md-center text-patua-one h1">Ordinary Real Babes Doing Porn</h2>
+						<p class="text-justify text-md-center mt-3 mb-5 lead">Each one of them completely exclusive, adorable, cute, totally innocent, with a perfect body, and a dirty mind, between 18 - 23 years old, willing to do everything to satisfy your dark sexual fantasies, experiencing their first encounter in the pornography industry, and looking to become the hottest pornstars.</p>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+				<div class="row gutter-sm">
+					<?php
+						foreach($invited_models_attrs as $value){
+							echo '
+								<div class="' . $value['col'] . '">
+									<img class="img-fluid lazy"  alt="' . $value['alt'] . '" title="' . $value['title'] . '" data-src="' . $value['img'] . '">
+								</div>
+							';
+						}
+					?>
+				</div>
+			</div>
+		</div>
 
+		<?php
 			// updates section
 			require_once 'shared/updates.php';
 
@@ -126,13 +123,16 @@
 			// call 2 action section
 			require_once 'shared/call2action.php';
 
+			// newsletter section
+			// require_once 'shared/newsletter.php';
+
 			// footer section
 			require_once 'shared/footer.php';
 
 			// copyright section
 			require_once 'shared/copyright.php';
 
-				// javascript libraries
+			// javascript libraries
 			require_once 'shared/libraries.php';
 		?>
 	</body>

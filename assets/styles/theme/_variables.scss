@@ -1,73 +1,112 @@
-$white: #fff;
+$white:    rgb(255, 255, 255);
 $gray-100: rgb(225, 225, 225) !default;
 $gray-200: rgb(200, 200, 200) !default;
 $gray-300: rgb(175, 175, 175) !default;
 $gray-400: rgb(150, 150, 150) !default;
 $gray-500: rgb(125, 125, 125) !default;
 $gray-600: rgb(100, 100, 100) !default;
-$gray-700: rgb(75, 75, 75) !default;
-$gray-800: rgb(50, 50, 50) !default;
-$gray-900: rgb(25, 25, 25) !default;
-$black: #000;
+$gray-700: rgb(75, 75, 75)    !default;
+$gray-800: rgb(50, 50, 50)    !default;
+$gray-900: rgb(25, 25, 25)    !default;
+$black:    rgb(0, 0, 0);
 
 $grays: () !default;
 $grays: map-merge(
-  (
-    "100": $gray-100,
-    "200": $gray-200,
-    "300": $gray-300,
-    "400": $gray-400,
-    "500": $gray-500,
-    "600": $gray-600,
-    "700": $gray-700,
-    "800": $gray-800,
-    "900": $gray-900
-  ),
-  $grays
+	(
+		"100": $gray-100,
+		"200": $gray-200,
+		"300": $gray-300,
+		"400": $gray-400,
+		"500": $gray-500,
+		"600": $gray-600,
+		"700": $gray-700,
+		"800": $gray-800,
+		"900": $gray-900
+	),
+	$grays
 );
 
-$purple:  rgb(120, 0, 120) !default;
-$pink:    rgb(255, 95, 150) !default;
-$red:     rgb(255, 0, 0) !default;
+$purple:     #730099 !default;
+$purple-100: #c61aff !default;
+$purple-200: #bf00ff !default;
+$purple-300: #ac00e6 !default;
+$purple-400: #9900cc !default;
+$purple-500: #8600b3 !default;
+$purple-600: #600080 !default;
+
+$purples: () !default;
+$purples: map-merge(
+	(
+		"100": $purple-100,
+		"200": $purple-200,
+		"300": $purple-300,
+		"400": $purple-400,
+		"500": $purple-500,
+		"600": $purple-600,
+	),
+	$purples
+);
+
+$pink:     #ff1a8c !default;
+$pink-100: #ffe6f2 !default;
+$pink-200: #ffcce6 !default;
+$pink-300: #ffb3d9 !default;
+$pink-400: #ff99cc !default;
+$pink-500: #ff80bf !default;
+$pink-600: #e60073 !default;
+
+$pinks: () !default;
+$pinks: map-merge(
+	(
+		"100": $pink-100,
+		"200": $pink-200,
+		"300": $pink-300,
+		"400": $pink-400,
+		"500": $pink-500,
+		"600": $pink-600,
+	),
+	$pinks
+);
+
+$red:     rgb(255, 0, 0)    !default;
 $yellow:  rgb(255, 220, 10) !default;
-$green:   rgb(0,130,0) !default;
+$green:   rgb(0,130,0)      !default;
 
 $colors: () !default;
 $colors: map-merge(
-  (
-    "purple":     $purple,
-    "pink":       $pink,
-    "red":        $red,
-    "yellow":     $yellow,
-    "green":      $green,
-    "gray":       $gray-600,
-    "gray-dark":  $gray-800
-  ),
-  $colors
+	(
+		"purple":     $purple,
+		"pink":       $pink,
+		"red":        $red,
+		"yellow":     $yellow,
+		"green":      $green,
+		"gray":       $gray-600,
+		"gray-dark":  $gray-800
+	),
+	$colors
 );
 
-$primary:       $purple !default;
-$secondary:     $pink !default;
-$danger:        $red !default;
-$warning:       $yellow !default;
-$success:       $green !default;
+$primary:       $purple   !default;
+$secondary:     $pink     !default;
+$danger:        $red      !default;
+$warning:       $yellow   !default;
+$success:       $green    !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "secondary":  $secondary,
-    "danger":     $danger,
-    "warning":    $warning,
-    "success":    $success,
-    "light":      $light,
-    "dark":       $dark
-  ),
-  $theme-colors
+	(
+		"primary":    $primary,
+		"secondary":  $secondary,
+		"danger":     $danger,
+		"warning":    $warning,
+		"success":    $success,
+		"light":      $light,
+		"dark":       $dark
+	),
+	$theme-colors
 );
-
 
 $font-size-base:              1rem !default;
 
@@ -75,16 +114,10 @@ $h1-font-size:                $font-size-base * 2.5 !default;
 
 $small-font-size:             0.8rem !default;
 
-
-
 $navbar-dark-color:                 $white !default;
 $navbar-dark-hover-color:           $warning !default;
 
-
-
 $modal-backdrop-opacity:      0.90 !default;
-
-
 
 @import "../bootstrap/variables";
 @import "theme";

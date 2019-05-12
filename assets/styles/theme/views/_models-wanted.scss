@@ -1,9 +1,5 @@
 ﻿.view-models-wanted {
-	@include newsletter-gradient;
-	@include newsletter-animation;
-	@include newsletter-keyframes;
-
-	background-size: 300% 300%;
+	background-color: map-get($pinks, "100");
 
     .model-scouting {
         background-color: $primary;

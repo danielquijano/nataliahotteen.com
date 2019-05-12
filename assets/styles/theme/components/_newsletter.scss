@@ -1,10 +1,4 @@
-.newsletter {
-	@include newsletter-gradient;
-	@include newsletter-animation;
-	@include newsletter-keyframes;
-
-	background-size: 300% 300%;
-
+.newsletter-container {
 	form {
 		.form-check {
 			position: inherit;

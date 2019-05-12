@@ -4,7 +4,7 @@
 			.card {
 				&-img-overlay {
 					.card-title {
-						background-color: rgba(255, 20, 100, .85);
+						background-color: $secondary;
 						position: absolute;
 						bottom: 0;
 						left: 0;
@@ -16,7 +16,11 @@
 
 
 	.headline {
-		hr { border-top: 1px solid lighten($primary, 5%); }
+		hr { 
+			border-top-width: 1px; 
+			border-top-style: solid; 
+			border-top-color: map-get($purples, "400"); 
+		}
 	}
 
 

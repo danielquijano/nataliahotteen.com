@@ -1,5 +1,5 @@
 <!-- newsletter -->
-<div class="newsletter bg-primary py-5">
+<div class="newsletter-container py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-1"></div>

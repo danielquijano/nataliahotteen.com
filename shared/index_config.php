@@ -31,7 +31,7 @@
 	$invited_models_attrs = array(
 		array(
 			'url' => 'blonde.php',
-			'col' => 'col-md-4 mt-2 mt-md-0 mb-2 mb-md-0 text-center',
+			'col' => 'col-12 col-md-4',
 			'alt' => 'Provocative slim blonde with tattoos',
 			'title' => 'Provocative slim blonde with tattoos',
 			'img' => 'assets/images/invited-model/blonde-lg.jpg',

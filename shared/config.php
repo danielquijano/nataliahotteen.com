@@ -50,7 +50,7 @@
 			$canonical_url = $canonical_url_building;
 			break;
 
-			case '/webapps/nataliahotteen.com/join.php':
+		case '/webapps/nataliahotteen.com/join.php':
 			$title = 'Join Natalia Hot Teen';
 			$keywords = '';
 			$body_class = 'view-join';
@@ -77,7 +77,7 @@
 			$canonical_url = $canonical_url_building;
 			break;
 
-			default:
+		default:
 			$title = '';
 			$keywords = '';
 			$body_class = 'view-index';

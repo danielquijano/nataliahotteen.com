@@ -1,12 +1,22 @@
-﻿@mixin card-gradient($start-color: rgba(0, 0, 0, 0.85), $start-transparent: transparent, $end-transparent: transparent, $end-color: rgba(0, 0, 0, 0.85)) {
+﻿// cards
+@mixin card-gradient($start-color: rgba(0, 0, 0, 0.85), $start-transparent: transparent, $end-transparent: transparent, $end-color: rgba(0, 0, 0, 0.85)) {
 	background-image: -webkit-linear-gradient($start-color 0%, $start-transparent 18%, $end-transparent 82%, $end-color 100%);
 	background-image: -moz-linear-gradient($start-color 0%, $start-transparent 18%, $end-transparent 82%, $end-color 100%);
 	background-image: linear-gradient($start-color 0%, $start-transparent 18%, $end-transparent 82%, $end-color 100%);
 }
 
+// background
+/*
+@mixin background-gradient($start-color: $primary, $middle-color: map-get($purples, "400"), $end-color: map-get($purples, "200")) {
+	background-image: -webkit-linear-gradient(-45deg, $start-color 0%, $middle-color 50%, $end-color 100%);
+	background-image: -moz-linear-gradient(-45deg, $start-color 0%, $middle-color 50%, $end-color 100%);
+	background-image: linear-gradient(-135deg, $start-color 0%, $middle-color 50%, $end-color 100%);
+}
+*/
 
-@mixin newsletter-gradient($start-color: darken($primary, 5%), $middle-color: $primary, $end-color:$secondary) {
-	background-image: -webkit-linear-gradient($start-color 0%, $middle-color 50%, $end-color 100%);
-	background-image: -moz-linear-gradient($start-color 0%, $middle-color 50%, $end-color 100%);
-	background-image: linear-gradient($start-color 0%, $middle-color 50%, $end-color 100%);
+// background
+@mixin pinks-bg-gradient-2($start-color: $white, $end-color: map-get($pinks, "200")) {
+	background-image: -webkit-linear-gradient(145deg, $start-color 0%, $end-color 100%);
+	background-image: -moz-linear-gradient(145deg, $start-color 0%, $end-color 100%);
+	background-image: linear-gradient(145deg, $start-color 0%, $end-color 100%);
 }

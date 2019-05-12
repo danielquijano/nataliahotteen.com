@@ -1,5 +1,5 @@
 <!-- footer -->
-<footer class="bg-primary">
+<footer class="footer-container">
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="col-6 col-md-4">

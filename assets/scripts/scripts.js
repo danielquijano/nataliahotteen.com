@@ -13,8 +13,7 @@ $(document).ready(function(){
 			loop: true,
 			dots: false,
 			pagination: false,
-			autoHeight: false,
-			autoHeightClass: 'owl-height',
+			autoHeight: true,
 			autoWidth: 0,
 			responsive: {
 				0: { items: 1 },

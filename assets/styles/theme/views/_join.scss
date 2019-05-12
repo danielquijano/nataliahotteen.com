@@ -1,11 +1,11 @@
 ﻿.view-join {
-	@include newsletter-gradient;
-	@include newsletter-animation;
-	@include newsletter-keyframes;
+	background-color: map-get($pinks, "100");
 
-    background-size: 300% 300%;
-    
-    .subscription {
-        padding: 2.5rem 0 3.5rem;
+    .card {
+        background-color: $primary !important;
+    }
+
+    .plans-container {
+        padding: 2.5rem 0 4.5rem;
     }
 }

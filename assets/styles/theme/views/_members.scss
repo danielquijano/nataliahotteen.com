@@ -1,24 +1,28 @@
 ﻿.view-members {
-	@include newsletter-gradient;
-	@include newsletter-animation;
-	@include newsletter-keyframes;
+	@include pinks-bg-gradient-2;
 
-	background-size: 300% 300%;
-
-    .login {
-        padding: 2.5rem 0 3.5rem;
+	.login {
+        padding: 2.5rem 0 4.5rem;
 
 		form {
-			.form-check {
-				position: inherit;
-				padding-left: 0;
-	
-				&-input {
-					@include transform(scale(1.30));
-	
-					position: inherit;
-					margin-left: 0;
+			.form-group {
+				.form-control {
+					@include placeholder {
+						color: map-get($purples, "100");
+					}
 				}
+	
+				.form-check {
+					position: inherit;
+					padding-left: 0;
+		
+					&-input {
+						@include transform(scale(1.30));
+		
+						position: inherit;
+						margin-left: 0;
+					}
+				}	
 			}
 		}	
 	}
