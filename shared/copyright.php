@@ -1,5 +1,5 @@
 <!-- copyright -->
-<div class="copyright py-3">
+<div class="copyright-container py-3">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

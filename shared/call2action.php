@@ -1,13 +1,19 @@
 <!-- call to action -->
-<div class="call2action py-5">
+<div class="call2action-container py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<h5 class="h1 text-center text-patua-one">Get your password right now!</h5>
-				<p class="text-center text-patua-one">
-					<a href="<?php $joinurl ?>" class="btn btn-secondary btn-lg shadow animated infinite pulse">Click here for instant access!</a>
+				<h5 class="text-primary text-md-center text-patua-one mb-0 h1">Get Your Password Right Now!</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4">
+				<p class="text-center mt-4 mb-0">
+					<a href="<?php $joinurl ?>" class="btn btn-secondary btn-block btn-lg text-patua-one shadow animated infinite pulse">Click Here For Instant Access!</a>
 				</p>
 			</div>
+			<div class="col-4"></div>
 		</div>
 	</div>
 </div>

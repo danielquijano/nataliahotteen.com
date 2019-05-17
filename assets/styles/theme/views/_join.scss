@@ -1,11 +1,33 @@
 ﻿.view-join {
-	background-color: map-get($pinks, "100");
+	@include bg-gradient-2;
 
-    .card {
-        background-color: $primary !important;
-    }
+	.card-container {
+		padding: 2.5rem 0 4.5rem;
 
-    .plans-container {
-        padding: 2.5rem 0 4.5rem;
-    }
+		.card {
+			background-color: map-get($purples, "400");
+
+			.card-body {
+				.text-secondary {
+					color: map-get($pinks, "200") !important;
+				}
+
+				.list-group {
+					.list-group-item {
+						background-color: map-get($purples, "300");
+					}
+				}
+			}
+
+			&.shadow {
+				background-color: $purple;
+
+				.list-group {
+					.list-group-item {
+						background-color: map-get($purples, "500");
+					}
+				}
+			}
+		}
+	}
 }

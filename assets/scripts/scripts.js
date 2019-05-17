@@ -42,9 +42,6 @@ $(document).ready(function(){
 				// ToggleClass function
 				ToggleClass();
 
-				// LazyLoading function
-				LazyLoading();
-
 				// CookieAlert function
 				CookieAlert();
 			});
@@ -56,9 +53,6 @@ $(document).ready(function(){
 
 			// ToggleClass function
 			ToggleClass();
-
-			// LazyLoading function
-			LazyLoading();
 
 			// CookieAlert function
 			CookieAlert();
@@ -73,15 +67,6 @@ $(document).ready(function(){
 			$('.navbar-nav  > .nav-item:nth-child(2) > .nav-link').toggleClass('animated tada');
 		}, 2500);
 	};
-
-	// LazyLoading function: for better ux
-	function LazyLoading(){
-		$('.lazy').Lazy({
-			bind: "event",
-			effect: "fadeIn",
-			effectTime: 500
-		});
-	}
 
 	// CookieAlert function
 	function CookieAlert(){
@@ -106,21 +91,36 @@ $(document).ready(function(){
 
 	// Warning Modal function
 	WarningModal();
+
+
+	// LazyLoading function: for better ux
+	function LazyLoading(){
+		$('.lazy').Lazy({
+			bind: "event",
+			effect: "fadeIn",
+			effectTime: 500
+		});
+	}
+
+	LazyLoading();
 });
 
 
 // Front-end form validation
-'use strict';
-
-window.addEventListener('load', function(){
-	var returnForms = document.querySelectorAll('.jquey-form-validation');
-	var validation = Array.prototype.filter.call(returnForms, function(form){
-		form.addEventListener('submit', function(event){
-			if (form.checkValidity() === false){
-				event.preventDefault();
-				event.stopPropagation();
-			}
-			form.classList.add('was-validated');
+(function() {
+	'use strict';
+	window.addEventListener('load', function() {
+	  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+	  var forms = document.getElementsByClassName('jquey-form-validation');
+	  // Loop over them and prevent submission
+	  var validation = Array.prototype.filter.call(forms, function(form) {
+		form.addEventListener('submit', function(event) {
+		  if (form.checkValidity() === false) {
+			event.preventDefault();
+			event.stopPropagation();
+		  }
+		  form.classList.add('was-validated');
 		}, false);
-	});
-}, false);
+	  });
+	}, false);
+})();

@@ -14,7 +14,7 @@
 								foreach ($navbar_attrs as $key => $value) {
 									echo '
 									<li class="nav-item">
-										<a class="nav-link h2 text-patua-one text-uppercase" href="' . $value['url'] . '">
+										<a class="nav-link h2 text-patua-one" href="' . $value['url'] . '">
 											<i class="material-icons md-36 align-text-top">' . $value['icon'] . '</i> ' . $value['name'] . '
 										</a>
 									</li>';

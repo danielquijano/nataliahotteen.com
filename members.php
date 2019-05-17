@@ -18,32 +18,32 @@
 			require_once 'shared/navbar.php';
 		?>
 
-		<div class="login">
+		<div class="login-container">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h4 class="text-center text-primary text-patua-one h1 mb-4">Members Login</h4>
+						<h4 class="text-primary text-md-center text-patua-one h1 mb-3">Members Login</h4>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-2 col-lg-3"></div>
 					<div class="col-md-8 col-lg-6">
-						<div class="bg-primary p-4">
+						<div class="bg-primary shadow p-4">
 							<form action="" method="" id="members_login_form" class="jquey-form-validation" novalidate="novalidate">
 								<div class="form-group mb-4">
 									<label for="username" class="small text-white">Enter your User Name</label>
-									<input type="text" autocomplete="username" class="form-control form-control-lg rounded-0 bg-transparent border-top-0 border-right-0 border-left-0 border-warning text-warning" id="username" placeholder="Username" autofocus required>
+									<input type="text" autocomplete="username" placeholder="Username" id="username" class="form-control form-control-lg" required autofocus>
 									<div class="invalid-feedback bg-danger text-white py-1 px-2">Your username is invalid.</div>
 								</div>
 
 								<div class="form-group mb-4">
 									<label for="password" class="small text-white">Enter your Password</label>
-									<input type="password" autocomplete="current-password" class="form-control form-control-lg rounded-0 bg-transparent border-top-0 border-right-0 border-left-0 border-warning text-warning" id="password" placeholder="••••••••" required>
+									<input type="password" autocomplete="current-password" placeholder="••••••••" id="password" class="form-control form-control-lg" required>
 									<div class="invalid-feedback bg-danger text-white py-1 px-2">Something is wrong with your password.</div>
 								</div>
 
-								<button type="submit" form="members_login_form" class="btn btn-warning btn-lg btn-block text-patua-one mb-3">Sign In</button>
+								<button type="submit" form="members_login_form" class="btn btn-warning btn-lg btn-block text-patua-one mb-3">Log In to Your Account</button>
 
 								<div class="text-center">
 									<div class="form-group">
@@ -58,13 +58,13 @@
 
 							<div class="row">
 								<div class="col-sm-5">
-									<p class="text-center mt-4 mb-3">
+									<p class="text-center mb-0">
 										<a href="#" class="btn btn-outline-light btn-block btn-sm">Forgot your Username?</a>
 									</p>
 								</div>
 								<div class="col-sm-2"></div>
 								<div class="col-sm-5">
-									<p class="text-center mt-4 mb-3">
+									<p class="text-center mb-0">
 										<a href="#" class="btn btn-outline-light btn-block btn-sm">Forgot your Password?</a>
 									</p>
 								</div>

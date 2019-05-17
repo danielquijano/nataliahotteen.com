@@ -5,18 +5,15 @@
 	background-image: linear-gradient($start-color 0%, $start-transparent 18%, $end-transparent 82%, $end-color 100%);
 }
 
-// background
-/*
-@mixin background-gradient($start-color: $primary, $middle-color: map-get($purples, "400"), $end-color: map-get($purples, "200")) {
-	background-image: -webkit-linear-gradient(-45deg, $start-color 0%, $middle-color 50%, $end-color 100%);
-	background-image: -moz-linear-gradient(-45deg, $start-color 0%, $middle-color 50%, $end-color 100%);
-	background-image: linear-gradient(-135deg, $start-color 0%, $middle-color 50%, $end-color 100%);
-}
-*/
-
-// background
-@mixin pinks-bg-gradient-2($start-color: $white, $end-color: map-get($pinks, "200")) {
+// backgrounds
+@mixin bg-gradient-2($start-color: $white, $end-color: map-get($pinks, "200")) {
 	background-image: -webkit-linear-gradient(145deg, $start-color 0%, $end-color 100%);
 	background-image: -moz-linear-gradient(145deg, $start-color 0%, $end-color 100%);
 	background-image: linear-gradient(145deg, $start-color 0%, $end-color 100%);
+}
+
+@mixin bg-gradient-3($start-color: $primary, $middle-color: map-get($purples, "400"), $end-color: map-get($purples, "200")) {
+	background-image: -webkit-linear-gradient(-45deg, $start-color 10%, $middle-color 60%, $end-color 100%);
+	background-image: -moz-linear-gradient(-45deg, $start-color 10%, $middle-color 60%, $end-color 100%);
+	background-image: linear-gradient(-135deg, $start-color 10%, $middle-color 60%, $end-color 100%);
 }

@@ -1,14 +1,18 @@
 ﻿.view-members {
-	@include pinks-bg-gradient-2;
+	@include bg-gradient-2;
 
-	.login {
+	.login-container {
         padding: 2.5rem 0 4.5rem;
 
 		form {
 			.form-group {
 				.form-control {
+					border-width: 1px !important;
+					border-style: solid !important;
+					border-color: map-get($purples, "600") !important;
+
 					@include placeholder {
-						color: map-get($purples, "100");
+						color: map-get($pinks, "400");
 					}
 				}
 	

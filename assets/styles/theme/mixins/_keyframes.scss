@@ -1,4 +1,4 @@
-﻿@mixin background-keyframes($args...) {
+﻿@mixin bg-keyframes($args...) {
 	@-webkit-keyframes Newsletter {
 		0% { background-position: 0% 20% }
 		50% { background-position: 100% 80% }

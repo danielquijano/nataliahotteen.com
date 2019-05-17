@@ -27,7 +27,7 @@
 							<div class="card rounded-0">
 								<img class="card-img rounded-0" alt="" title="" src="' . $value['image'] . '">
 								<div class="card-img-overlay">
-									<p class="card-title text-white py-1 pr-2 pl-1 mb-2 shadow-sm">' . $value['title'] . '</p>
+									<p class="card-title bg-secondary text-white py-1 px-2 mb-3">' . $value['title'] . '</p>
 								</div>
 							</div>
 						';
@@ -37,14 +37,13 @@
 		</div>
 
 		<!-- headline section -->
-		<div class="headline bg-primary py-5">
+		<div class="headline-container bg-primary py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
 						<h1 class="text-warning text-md-center text-patua-one mb-0">Hot Sexy Girls Photos & Videos</h1>
-						<hr class="my-4">
-						<p class="text-white text-justify text-md-center mb-0 lead">Spend hours of pure pleasure watching hot sexy girls masturbating to orgasm, cumming over, dancing sensually, stripping slowly in front of the camera, and getting fucked hard for just a few dollars like cheap street prostitutes. Man, you won't find these anywhere else on the entire internet.</p>
+						<p class="text-white text-justify text-md-center mt-4 mb-0 lead">Spend hours of pure pleasure watching hot sexy girls masturbating to orgasm, cumming over, dancing sensually, stripping slowly in front of the camera, and getting fucked hard for just a few dollars like cheap street prostitutes. Man, you won't find these anywhere else on the entire internet.</p>
 					</div>
 					<div class="col-lg-1"></div>
 				</div>
@@ -52,13 +51,13 @@
 		</div>
 
 		<!-- hottest sets section -->
-		<div class="hottest-sets py-5">
+		<div class="hottest-sets-container py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h3 class="text-primary text-md-center text-patua-one h1">A New Bunch of Horny Women</h3>
-						<p class="text-justify text-md-center mt-3 mb-5 lead">Watch stunning ex-girlfriends naked showing off their nice tits, desperate housewives cheating on their husbands as soon as they leave, exploited teens spreading their legs wide open, rubbing their delicious shaved pink pussy, having fun sucking dicks and craving to get a lot of cum in their mouths.</p>
+						<h3 class="text-primary text-md-center text-patua-one mb-0 h1">A New Bunch of Horny Women</h3>
+						<p class="text-justify text-md-center mt-4 mb-5 lead">Watch stunning ex-girlfriends naked showing off their nice tits, desperate housewives cheating on their husbands as soon as they leave, exploited teens spreading their legs wide open, rubbing their delicious shaved pink pussy, having fun sucking dicks and craving to get a lot of cum in their mouths.</p>
 					</div>
 					<div class="col-lg-1"></div>
 				</div>
@@ -89,13 +88,13 @@
 		</div>
 
 		<!-- invited model section -->
-		<div class="invited-models py-5">
+		<div class="invited-models-container py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h2 class="text-primary text-md-center text-patua-one h1">Ordinary Real Babes Doing Porn</h2>
-						<p class="text-justify text-md-center mt-3 mb-5 lead">Each one of them completely exclusive, adorable, cute, totally innocent, with a perfect body, and a dirty mind, between 18 - 23 years old, willing to do everything to satisfy your dark sexual fantasies, experiencing their first encounter in the pornography industry, and looking to become the hottest pornstars.</p>
+						<h2 class="text-primary text-md-center text-patua-one mb-0 h1">Ordinary Real Babes Doing Porn</h2>
+						<p class="text-justify text-md-center mt-4 mb-5 lead">Each one of them completely exclusive, adorable, cute, totally innocent, with a perfect body, and a dirty mind, between 18 - 23 years old, willing to do everything to satisfy your dark sexual fantasies, experiencing their first encounter in the pornography industry, and looking to become the hottest pornstars.</p>
 					</div>
 					<div class="col-lg-1"></div>
 				</div>

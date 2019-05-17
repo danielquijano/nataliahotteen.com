@@ -10,11 +10,17 @@
 <meta name="robots" content="all">
 
 <link rel="stylesheet" media="tv" onload="if(media!='screen')media='screen'" href="assets/styles/css/animate.min.css">
-<link rel="stylesheet" media="tv" onload="if(media!='screen')media='screen'" href="assets/styles/css/emoji.min.css">
+<?php 
+    if($identifier == 'index'){
+        echo '
+            <link rel="stylesheet" media="tv" onload="if(media!=\'screen\')media=\'screen\'" href="assets/styles/css/emoji.min.css">
+        ';
+    }
+?>
 <link rel="stylesheet" media="screen" href="assets/styles/css/bootstrap.min.css">
 
 <?php
-    if ($identifier == 'index') {
+    if($identifier == 'index'){
         echo '
             <link rel="preload" href="assets/images/carousel/1.jpg" as="image">
             <link rel="preload" href="assets/images/carousel/2.jpg" as="image">

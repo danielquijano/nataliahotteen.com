@@ -4,7 +4,6 @@
 			.card {
 				&-img-overlay {
 					.card-title {
-						background-color: $secondary;
 						position: absolute;
 						bottom: 0;
 						left: 0;
@@ -14,32 +13,7 @@
 		}
 	}
 
-
-	.headline {
-		hr { 
-			border-top-width: 1px; 
-			border-top-style: solid; 
-			border-top-color: map-get($purples, "400"); 
-		}
-	}
-
-
-	.invited-models {
-		.row {
-			&.gutter-sm {
-				margin-right: -3px;
-				margin-left: -3px;
-			}
-
-			> div[class*="col"] {
-				padding-right: 3px;
-				padding-left: 3px;
-			}
-		}
-	}
-
-
-	.hottest-sets {
+	.hottest-sets-container {
 		.card-columns {
 			@media (max-width: 767px) { @include column-count($columns: 2); }
 			@media (min-width: 768px) { @include column-count($columns: 3); }
@@ -78,6 +52,20 @@
 						}
 					}
 				}
+			}
+		}
+	}
+
+	.invited-models-container {
+		.row {
+			&.gutter-sm {
+				margin-right: -3px;
+				margin-left: -3px;
+			}
+
+			> div[class*="col"] {
+				padding-right: 3px;
+				padding-left: 3px;
 			}
 		}
 	}

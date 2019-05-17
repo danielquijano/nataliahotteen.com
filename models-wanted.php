@@ -1,59 +1,56 @@
-﻿<?php require 'shared/config.php' ?>
+﻿<?php require_once 'shared/config.php' ?>
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<?php require 'shared/head.php'; ?>
+		<?php require_once 'shared/head.php'; ?>
 	</head>
 
 	<body class="<?php echo $body_class ?>">
 		<?php 
 			// warning modal
-			require 'shared/warning-modal.php';
+			require_once 'shared/warning-modal.php';
 
 			// cookie alert
-			require 'shared/cookie-alert.php';
+			require_once 'shared/cookie-alert.php';
 
 			// navbar
-			require 'shared/navbar.php';
+			require_once 'shared/navbar.php';
 		?>
 
-		<!-- model scouting -->
-		<div class="model-scouting">
+		<div class="model-wanted-container bg-primary py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h1 class="h1 text-white text-md-center text-patua-one">¡Se Nuestra Próxima Modelo!</h1>
-						<p class="lead text-white text-justify text-md-center mb-0">Estamos bucando a las chicas más bonitass y hermosas que estén viviendo en México actualmente sin importar su nacionalidad para que se unan a nuestro increíble equipo de trabajo.</p>
+						<h1 class="text-warning text-md-center text-patua-one mb-0">¡Se Nuestra Próxima Modelo!</h1>
+						<p class="text-white text-justify text-md-center mt-4 mb-0 lead">Estamos bucando a las chicas más bonitass y hermosas que estén viviendo en México actualmente sin importar su nacionalidad para que se unan a nuestro increíble equipo de trabajo.</p>
 					</div>
 					<div class="col-lg-1"></div>
 				</div>
 			</div>
 		</div>
 
-		<!-- instructions -->
-		<div class="instructions py-5 bg-light">
+		<div class="py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h2 class="h1 text-primary text-md-center text-patua-one">Queremos conocerte y ver tu belleza</h2>
-						<p class="text-justify text-md-center">El proyecto es sobre fotografia y videos modelando sensualmente ropa muy coqueta como: micro shorts, leggings, mini faldas, tangas, lencería muy sensual, etc; la dinámica es desvestirse hasta exponer al menos los senos. Si no tienes experiencia modelando, no te preocupes, no importa, nosotros te guiamos. Envíanos algunas de tus fotos, no tienen que ser profesionales, unas selfies en tu baño son más que suficiente. Sólo siguen estas simples reglas:</p>
-						<p class="text-justify text-md-center font-weight-bold mb-0">1) Sin maquillaje &nbsp; 2) Muestra tu figura completa &nbsp; 3) Sin poses de modelo profesional.</p>
+						<h2 class="text-primary text-md-center text-patua-one mb-0 h1">Queremos Conocerte y Ver Tú Belleza</h2>
+						<p class="text-md-center text-justify mt-4 mb-2">El proyecto es sobre fotografia y videos modelando sensualmente ropa muy coqueta como: micro shorts, leggings, mini faldas, tangas, lencería muy sensual, etc; la dinámica es desvestirse hasta exponer al menos los senos. Si no tienes experiencia modelando, no te preocupes, no importa, nosotros te guiamos. Envíanos algunas de tus fotos, no tienen que ser profesionales, unas selfies en tu baño son más que suficiente. Sólo siguen estas simples reglas:</p>
+						<p class="text-md-center font-weight-bold mb-0">1) Sin maquillaje &nbsp; 2) Muestra tu figura completa &nbsp; 3) Sin poses de modelo profesional.</p>
 					</div>
 					<div class="col-lg-1"></div>
 				</div>
 			</div>
 		</div>
 
-		<!-- application -->
-		<div class="application py-5">
+		<div class="py-5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h2 class="h1 text-primary text-md-center text-patua-one mb-4">¡Aplica Hoy Mismo!</h2>
+						<h2 class="text-primary text-md-center text-patua-one mb-0 h1">¡Aplica Hoy Mismo!</h2>
 					</div>
 					<div class="col-lg-1"></div>
 				</div>
@@ -61,17 +58,17 @@
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<form action="uploads.php" method="post" enctype="multipart/form-data" id="models_wanted_form" class="jquey-form-validation" novalidate="novalidate">
+						<form action="uploads.php" method="post" enctype="multipart/form-data" id="models_wanted_form" class="jquey-form-validation mt-4" novalidate="novalidate">
 							<div class="form-row">
 								<div class="form-group col-md-5">
 									<label for="first_name" class="mb-1">Nombre <span class="text-muted small">(Requerido)</span></label>
-									<input type="text" class="form-control" id="first_name" name="first_name" pattern="[a-zA-Z]{3,30}" required>
+									<input type="text" class="form-control" autocomplete="given-name" id="first_name" name="first_name" pattern="[a-zA-Z]{3,30}" required>
 									<div class="invalid-feedback bg-danger text-white py-1 px-2">Escribe tu nombre correctamente.</div>
 								</div>
 
 								<div class="form-group col-md-5">
 									<label for="last_name" class="mb-1">Apellido <span class="text-muted small">(Optional)</span></label>
-									<input type="text" class="form-control" id="last_name" name="last_name" pattern="[a-zA-Z]{3,30}">
+									<input type="text" class="form-control" autocomplete="family-name" id="last_name" name="last_name" pattern="[a-zA-Z]{3,30}">
 								</div>
 
 								<div class="form-group col-md-2">
@@ -84,12 +81,12 @@
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<label for="email" class="mb-1">Email <span class="text-muted small">(Optional)</span></label>
-									<input type="email" class="form-control" id="email" name="email">
+									<input type="email" class="form-control" autocomplete="email" id="email" name="email">
 								</div>
 
 								<div class="form-group col-md-6">
 									<label for="whatsapp" class="mb-1">WhatsApp <span class="text-muted small">(Requerido)</span></label>
-									<input type="tel" class="form-control" id="whatsapp" name="whatsapp" pattern="[0-9]{8,12}" required>
+									<input type="tel" class="form-control" autocomplete="tel-local" id="whatsapp" name="whatsapp" pattern="[0-9]{8,12}" required>
 									<div class="invalid-feedback bg-danger text-white py-1 px-2">Tu teléfono es súper importante.</div>
 								</div>
 							</div>
@@ -97,7 +94,7 @@
 							<div class="form-row">
 								<div class="form-group col-md-4">
 									<label for="country" class="mb-1">País <span class="text-muted small">(Solamente México)</span></label>
-									<select class="form-control d-block w-100" id="country" name="country">
+									<select class="form-control d-block w-100" autocomplete="country-name" id="country" name="country">
 										<option value="Mexico" selected>Mexico</option>
 									</select>
 								</div>
@@ -194,17 +191,11 @@
 		</div>
 
 		<?php
-			// footer section
-			require 'shared/footer.php';
-
 			// copyright section
-			require 'shared/copyright.php';
+			require_once 'shared/copyright.php';
 
 			// javascript libraries
-			require 'shared/libraries.php';
-
-			// javascript scripts
-			require 'shared/scripts.php';
+			require_once 'shared/libraries.php';
 		?>
 	</body>
 </html>
