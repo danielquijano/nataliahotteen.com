@@ -18,19 +18,12 @@
 			require_once 'shared/navbar.php';
 		?>
 
-		<!-- owl carrousel section -->
+		<!-- carrousel section -->
 		<div class="carousel">
 			<div class="owl-carousel">
 				<?php 
-					foreach($carousel_attrs as $value){
-						echo '
-							<div class="card rounded-0">
-								<img class="card-img rounded-0" alt="" title="" src="' . $value['image'] . '">
-								<div class="card-img-overlay">
-									<p class="card-title bg-secondary text-white py-1 px-2 mb-3">' . $value['title'] . '</p>
-								</div>
-							</div>
-						';
+					foreach($carousel_imgs_arr as $index => $imgs_arr){
+						echo '<div class="card rounded-0"><img src="' . $imgs_arr . '" class="card-img rounded-0" alt="' . $carousel_alts_arr[$index] . '"></div>';
 					}
 				?>
 			</div>

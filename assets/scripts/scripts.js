@@ -7,20 +7,36 @@ $(document).ready(function(){
 		// Owl Carousel setup
 		var owl = $('.owl-carousel');
 		owl.owlCarousel({
+			loop: true,
+			margin: 0,
+
 			autoplay: false,
 			autoplayTimeout: 4000,
 			autoplayHoverPause: false,
-			loop: true,
+	
+			nav: false,
 			dots: false,
 			pagination: false,
+
 			autoHeight: true,
 			autoWidth: 0,
-			responsive: {
-				0: { items: 1 },
-				576: { items: 2 },
-				768: { items: 3 },
-				1200: { items: 4 },
-				1500: { items: 5 }
+
+			responsive:{
+				0:{
+					items: 1,
+				},
+				576:{
+					items: 2,
+				},
+				768:{
+					items: 3,
+				},
+				992:{
+					items: 4,
+				},
+				1200:{
+					items: 4,
+				}
 			}
 		});
 

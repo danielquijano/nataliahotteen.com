@@ -1,31 +1,8 @@
 <?php 
 	// Carousel
-	$carousel_attrs = array(
-		array(
-			'title' => 'Titulo de la imagen 01',
-			'image'	=> 'assets/images/carousel/1.jpg',
-		),
-		array(
-			'title' => 'Imagen 02',
-			'image'	=> 'assets/images/carousel/2.jpg',
-		),
-		array(
-			'title' => 'Titulo 03 imagen',
-			'image'	=> 'assets/images/carousel/3.jpg',
-		),
-		array(
-			'title' => 'Imagen 04',
-			'image'	=> 'assets/images/carousel/4.jpg',
-		),
-		array(
-			'title' => 'Titulo de la imagen 05',
-			'image'	=> 'assets/images/carousel/5.jpg',
-		),
-		array(
-			'title' => 'Titulo de la 06',
-			'image'	=> 'assets/images/carousel/6.jpg',
-		),
-	);
+	$carousel_imgs_dir = 'assets/images/carousel/';
+	$carousel_imgs_arr = glob($carousel_imgs_dir . '*.jpg');
+	$carousel_alts_arr = array('alt_uno', 'alt_dos', 'alt_tres', 'alt_cuatro', 'alt_cinco', 'alt_seis', 'alt_siete');
 
 	// Invited Models
 	$invited_models_attrs = array(
