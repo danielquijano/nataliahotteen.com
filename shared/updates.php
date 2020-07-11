@@ -10,13 +10,13 @@
 			<div class="col-lg-1"></div>
 		</div>
 		<div class="row no-gutters">
-			<?php
+		<?php
+
 				foreach ($updates_attrs as $value) {
-					echo '
-						<div class="col-4 col-md-3 col-lg-2">
-							<img width="185" height="175" class="img-fluid lazy" alt="' . $value['alt'] . '"  title=""  data-src="' . $value['thumb'] . '">
-						</div>
-					';
+					echo 
+					'<div class="col-4 col-md-3 col-lg-2">
+						<img class="img-fluid lazy" alt="' . $value['alt'] . '" title="" src="' . $value['thumb'] . '">
+					</div>';
 				}
 			?>
 		</div>

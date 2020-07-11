@@ -5,7 +5,7 @@
 				<p class="mb-0 small text-justify">This website uses cookies and other similar technologies to analyze traffic, improve the characteristics of the products, and browsing. By closing this alert, clicking a link or continuing to browse, you agree to the use of them.</p>
 
 				<p class="text-right mb-0 mt-2">
-					<a class="btn btn-sm btn-outline-primary rounded-0" href="#" data-dismiss="alert">I understand</a>
+					<a class="btn btn-sm btn-primary rounded-0" href="#" data-dismiss="alert">I understand</a>
 					<a class="btn btn-sm btn-outline-primary rounded-0 mx-1" href="http://blank.org">I prefer to go</a>
 					<a class="btn btn-sm btn-link" href="cookie.php">Learn more</a>
 				</p>

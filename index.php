@@ -43,6 +43,35 @@
 			</div>
 		</div>
 
+		<!-- real babes section -->
+		<div class="invited-models-container py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-10">
+						<h2 class="text-primary text-md-center text-patua-one mb-0 h1">Ordinary Real Babes Doing Porn</h2>
+						<p class="text-justify text-md-center mt-4 mb-5 lead">Each one of them completely exclusive, adorable, cute, totally innocent, with a perfect body, and a dirty mind, between 18 - 23 years old, willing to do everything to satisfy your dark sexual fantasies, experiencing their first encounter in the pornography industry, and looking to become the hottest pornstars.</p>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+				<div class="row gutter-sm">
+					<?php
+						foreach ($invited_models_attrs as $value) {
+							echo 
+							'<div class="' . $value['col'] . '">
+								<a href="' . $value['url'] . '">
+									<picture>
+										<source class="lazy" media="(max-width: 767px)" srcset="' . $value['img-sm'] . '">
+										<img class="img-fluid lazy" alt="' . $value['alt'] . '" title="" src="' . $value['img-lg'] . '">
+									</picture>
+								</a>
+							</div>';
+						}
+					?>
+				</div>
+			</div>
+		</div>
+
 		<!-- hottest sets section -->
 		<div class="hottest-sets-container py-5">
 			<div class="container">
@@ -57,50 +86,25 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="card-columns">
-							<?php 
-								foreach($hottest_sets_attrs as $value){
-									echo '
-										<a href="' . $value['url'] . '">
-											<div class="card rounded-0 mb-1">
-												<img class="card-img rounded-0 lazy" alt="' . $value['alt'] . '" title="" data-src="' . $value['image'] . '">
-												
-												<div class="card-img-overlay p-0">
-													<p class="card-title text-warning text-uppercase font-weight-bold mt-2 mb-0 px-3">' . $value['title'] . '</p>
-													<p class="card-title text-warning mb-0 px-3">' . $value['grades'] . '</p>
-													<p class="card-text text-white mb-0 pt-4 pb-3 px-3">' . $value['text'] . '</p>
-												</div>
-											</div>
-										</a>
-									';
-								}
-							?>
+
+						<?php 
+							foreach ($hottest_sets_attrs as $value) {
+								echo 
+								'<a href="' . $value['url'] . '">
+									<div class="card mb-1">
+										<img class="card-img" src="' . $value['image'] . '" alt="' . $value['alt'] . '" title="">
+
+										<div class="card-img-overlay p-0">
+											<p class="card-title text-warning text-uppercase font-weight-bold mt-2 mb-0 px-3">' . $value['title'] . '</p>
+											<p class="card-title text-warning mb-0 px-3">' . $value['grades'] . '</p>
+											<p class="card-text text-white mb-0 pt-4 pb-3 px-3">' . $value['text'] . '</p>
+										</div>
+									</div>
+								</a>';
+							}
+						?>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- invited model section -->
-		<div class="invited-models-container py-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-1"></div>
-					<div class="col-lg-10">
-						<h2 class="text-primary text-md-center text-patua-one mb-0 h1">Ordinary Real Babes Doing Porn</h2>
-						<p class="text-justify text-md-center mt-4 mb-5 lead">Each one of them completely exclusive, adorable, cute, totally innocent, with a perfect body, and a dirty mind, between 18 - 23 years old, willing to do everything to satisfy your dark sexual fantasies, experiencing their first encounter in the pornography industry, and looking to become the hottest pornstars.</p>
-					</div>
-					<div class="col-lg-1"></div>
-				</div>
-				<div class="row gutter-sm">
-					<?php
-						foreach($invited_models_attrs as $value){
-							echo '
-								<div class="' . $value['col'] . '">
-									<img class="img-fluid lazy"  alt="' . $value['alt'] . '" title="' . $value['title'] . '" data-src="' . $value['img'] . '">
-								</div>
-							';
-						}
-					?>
 				</div>
 			</div>
 		</div>

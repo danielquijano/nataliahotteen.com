@@ -13,7 +13,7 @@
 					<div class="row">
 						<div class="col-6">
 							<p class="text-center mb-0">
-								<a class="btn btn-outline-light btn-block rounded-0 py-2" href="https://www.disney.com/">No, I'm</a>
+								<a class="btn btn-outline-light btn-block rounded-0 py-2" href="http://blank.org/">No, I'm</a>
 							</p>
 						</div>
 						<div class="col-6">

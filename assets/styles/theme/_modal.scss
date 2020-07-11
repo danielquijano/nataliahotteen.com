@@ -1,0 +1,14 @@
+// Modal background
+.modal-backdrop {
+    &.show { opacity: $modal-backdrop-opacity; }
+}
+
+// Modal background gradient
+.modal-backdrop-gradient {
+    background-color: #780078;
+    background: -webkit-linear-gradient(135deg, #1c001c 0%, #2c002b 50%, #1c001c 100%);
+    background: -moz-linear-gradient(135deg, #1c001c 0%, #2c002b 50%, #1c001c 100%);
+    background: -ms-linear-gradient(135deg, #1c001c 0%, #2c002b 50%, #1c001c 100%);
+    background: -o-linear-gradient(135deg, #1c001c 0%, #2c002b 50%, #1c001c 100%);
+    background: linear-gradient(135deg, #1c001c 0%, #2c002b 50%, #1c001c 100%);
+}
