@@ -15,7 +15,7 @@
 									echo '
 									<li class="nav-item">
 										<a class="nav-link h2 text-patua-one" href="' . $value['url'] . '">
-											<i class="material-icons md-36 align-text-top">' . $value['icon'] . '</i> ' . $value['name'] . '
+											<i class="mdi ' . $value['icon'] . ' md-36 align-text-top">' . '</i> ' . $value['name'] . '
 										</a>
 									</li>';
 								}

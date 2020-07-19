@@ -41,7 +41,7 @@
 			'text' => 'Succulent ass <i class="em em-peach"></i> obscene mini skirt and marvelous point of views <i class="em em-camera"></i>',
 			'title' => 'bubble butt',
 			'image'	=> 'assets/images/hottest-sets/bubble-butt.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i>',
 		),
 		array(
 			'url' => 'hot-sexy-girls.php',
@@ -49,7 +49,7 @@
 			'text' => 'Uncensored <i class="em em-underage"></i> lovely latinas <i class="em em-flag-co"></i> for your own personal entertainment.',
 			'title' => 'hot sexy girls',
 			'image'	=> 'assets/images/hottest-sets/hot-sexy-girls.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_border</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star-outline"></i>',
 		),
 		array(
 			'url' => 'ex-gf-nudes.php',
@@ -57,7 +57,7 @@
 			'text' => 'All this photographs are definitely <i class="em em-hammer_and_pick"></i> Not Safe For Work <i class="em em-scream"></i> #nsfw',
 			'title' => 'ex gf nudes',
 			'image'	=> 'assets/images/hottest-sets/ex-gf-nudes.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star-half-full"></i>',
 		),
 		array(
 			'url' => 'instagram-hottie.php',
@@ -65,7 +65,7 @@
 			'text' => 'Check out this thot! <i class="em em-drooling_face"></i>  She\'s a Queen <i class="em em-crown"></i>',
 			'title' => 'instagram hottie',
 			'image'	=> 'assets/images/hottest-sets/instagram-hottie.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_half</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star-half-full"></i>',
 		),
 		array(
 			'url' => 'naughty.php',
@@ -73,7 +73,7 @@
 			'text' => 'She is about to sin <i class="em em-fire"></i> once again <i class="em em-sweat_smile"></i>',
 			'title' => 'naughty',
 			'image'	=> 'assets/images/hottest-sets/naughty.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_half</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i>',
 		),
 		array(
 			'url' => 'big-juicy-booty.php',
@@ -81,7 +81,7 @@
 			'text' => 'My thong is <i class="em em-dizzy_face"></i> disappearing <i class="em em-peach"></i>',
 			'title' => 'big juicy booty',
 			'image'	=> 'assets/images/hottest-sets/big-juicy-booty.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_border</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i>',
 		),
 		array(
 			'url' => 'tiny-boobs.php',
@@ -89,7 +89,7 @@
 			'text' => '<i class="em em-fire"></i> Let\'s do nasty things <i class="em em-sweat_drops"></i>',
 			'title' => 'tiny boobs',
 			'image'	=> 'assets/images/hottest-sets/tiny-boobs.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_border</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i>',
 		),
 		array(
 			'url' => 'petite-brunette.php',
@@ -97,7 +97,7 @@
 			'text' => '<i class="em em-smiling_imp"></i> Do you wanna fuck me? <i class="em em-tongue"></i>',
 			'title' => 'petite brunette',
 			'image'	=> 'assets/images/hottest-sets/petite-brunette.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_border</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star-half-full"></i>',
 		),
 		array(
 			'url' => 'erotic-fantasy.php',
@@ -105,7 +105,7 @@
 			'text' => 'My boyfriend <i class="em em-man_in_tuxedo"></i> really loves <i class="em em-heart_decoration"></i> when I dress like a whore. Do you?',
 			'title' => 'erotic fantasy',
 			'image'	=> 'assets/images/hottest-sets/erotic-fantasy.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_half</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i>',
 		),
 		array(
 			'url' => 'sensual.php',
@@ -113,7 +113,7 @@
 			'text' => '<i class="em em-hot_pepper"></i> I\'m so hungry for you. I want you inside me <i class="em em-cucumber"></i>',
 			'title' => 'sensual',
 			'image'	=> 'assets/images/hottest-sets/sensual.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star-outline"></i>',
 		),
 		array(
 			'url' => 'small-nipples.php',
@@ -121,7 +121,7 @@
 			'text' => 'Bite me, lick me smoothly <i class="em em-tongue"></i> and play with my tight slit <i class="em em-crossed_fingers"></i>',
 			'title' => 'small nipples',
 			'image'	=> 'assets/images/hottest-sets/small-nipples.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_border</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i>',
 		),
 		array(
 			'url' => 'boobies.php',
@@ -129,7 +129,7 @@
 			'text' => '<i class="em em-see_no_evil"></i> Make her your bitch <i class="em em-dog2"></i>',
 			'title' => 'boobies',
 			'image'	=> 'assets/images/hottest-sets/boobies.jpg',
-			'grades' => '<i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">star_half</i>',
+			'grades' => '<i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i class="mdi mdi-star-half-full"></i>',
 		),
 	);
 ?>

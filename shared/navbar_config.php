@@ -2,17 +2,17 @@
     $navbar_attrs = array(
         array(
             'url'   => $url_index,
-            'icon'  => 'home',
+            'icon'  => 'mdi-home',
             'name'  => 'Home',
         ),
         array(
             'url'   => $url_join,
-            'icon'  => 'favorite',
+            'icon'  => 'mdi-heart',
             'name'  => 'Join Us <span class="d-md-none d-lg-inline">Now</span>',
         ),
         array(
             'url'   => $url_members,
-            'icon'  => 'face',
+            'icon'  => 'mdi-face',
             'name'  => 'Members',
         ),
     );
