@@ -1,5 +1,4 @@
-<!-- updates -->
-<div class="updates-container py-5">
+<div class="nht-updates py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-1"></div>
@@ -10,13 +9,12 @@
 			<div class="col-lg-1"></div>
 		</div>
 		<div class="row no-gutters">
-		<?php
-
+			<?php
 				foreach ($updates_attrs as $value) {
-					echo 
-					'<div class="col-4 col-md-3 col-lg-2">
-						<img class="img-fluid lazy" alt="' . $value['alt'] . '" title="" src="' . $value['thumb'] . '">
-					</div>';
+					echo
+						'<div class="col-4 col-md-3 col-lg-2">
+							<img class="img-fluid lazy" alt="' . $value['alt'] . '" title="" src="' . $value['thumb'] . '">
+						</div>';
 				}
 			?>
 		</div>

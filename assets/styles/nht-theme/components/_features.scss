@@ -1,14 +1,6 @@
-﻿.features-container {
+﻿.nht-features {
 	.row {
-		&.gutter-sm {
-			margin-right: -3px;
-			margin-left: -3px;
-		}
-
 		> div[class*="col"] {
-			padding-right: 3px;
-			padding-left: 3px;
-
 			.border {
 				background-color: $white;
 

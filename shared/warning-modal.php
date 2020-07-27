@@ -1,5 +1,5 @@
 <!-- warning modal -->
-<div class="modal fade jquery-warning-modal">
+<div class="modal fade js-warning-modal">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content bg-transparent border-0 rounded-0">
 			<div class="modal-body">

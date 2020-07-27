@@ -1,5 +1,4 @@
-<!-- call to action -->
-<div class="call2action-container py-5">
+<div class="nht-call2action py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -10,7 +9,7 @@
 			<div class="col-4"></div>
 			<div class="col-4">
 				<p class="text-center mt-4 mb-0">
-					<a href="<?php $joinurl ?>" class="btn btn-secondary btn-block btn-lg text-patua-one shadow animated infinite pulse">Click Here For Instant Access!</a>
+					<a href="<?php $joinurl ?>" class="btn btn-secondary btn-block btn-lg text-patua-one shadow animate__animated animate__infinite animate__pulse">Click Here For Instant Access!</a>
 				</p>
 			</div>
 			<div class="col-4"></div>

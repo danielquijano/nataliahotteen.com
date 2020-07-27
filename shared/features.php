@@ -1,4 +1,4 @@
-<div class="features-container py-5">
+<div class="nht-features py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-1"></div>
@@ -8,14 +8,14 @@
 			</div>
 			<div class="col-lg-1"></div>
 		</div>
-		<div class="row gutter-sm">
+		<div class="row nht-gutters">
 			<?php
 				foreach ($features_attrs as $key => $value) {
 					echo '
 						<div class="' . $value['col'] . '">
 							<div class="border py-3 px-1">
 								<p class="text-center mb-0"><i class="material-icons md-66">' . $value['icon'] . '</i></p>
-								<p class="text-center mb-0 small text-uppercase">' . $value['descr'] . '</p>
+								<p class="text-center mb-0 small text-uppercase">' . $value['description'] . '</p>
 							</div>
 						</div>
 					';

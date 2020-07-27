@@ -1,5 +1,5 @@
 <?php 
-	// ipstack.com: detect ips
+	// ipstack.com: detecting ips
 	function ipstack(){
 		$cookie_name = 'ipstack.com';
 		$cookie_value = true;

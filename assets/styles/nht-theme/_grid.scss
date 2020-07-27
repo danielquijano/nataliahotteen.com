@@ -1,0 +1,12 @@
+// Remove the negative margin from default .row, then the horizontal padding
+// from all immediate children columns (to prevent runaway style inheritance).
+.nht-gutters {
+    margin-right: -3px;
+    margin-left: -3px;
+
+    > .col,
+    > [class*="col-"] {
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+}

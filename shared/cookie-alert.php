@@ -1,4 +1,4 @@
-<div class="py-4 alert jquery-cookie-alert bg-warning fade fixed-bottom mb-0 rounded-0 border-0 shadow">
+<div class="py-4 alert js-cookie-alert bg-warning fade fixed-bottom mb-0 rounded-0 border-0 shadow">
 	<div class="row">
 		<div class="col"></div>
 
