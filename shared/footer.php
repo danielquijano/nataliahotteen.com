@@ -7,7 +7,7 @@
 					<ul class="list-unstyled mb-0">
 						<?php 
 							foreach ($sitemap_attrs as $key => $value) {
-								echo '<li><a class="btn btn-link" title="' . $value['title'] . '" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
+								echo '<li><a class="btn btn-link btn-sm" title="' . $value['title'] . '" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
 							}
 						?>
 					</ul>
@@ -20,7 +20,7 @@
 					<ul class="list-unstyled mb-0">
 						<?php
 							foreach ($agreement_attrs as $key => $value) {
-								echo '<li><a class="btn btn-link" title="' . $value['title'] . '" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
+								echo '<li><a class="btn btn-link btn-sm" title="' . $value['title'] . '" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
 							}
 						?>
 					</ul>

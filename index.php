@@ -20,9 +20,49 @@
 	?>
 
 	<!-- carousel section -->
-	<div class="nht-carousel">
-	</div>
+	<div id="carousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel" data-slide-to="1"></li>
+			<li data-target="#carousel" data-slide-to="2"></li>
+			<li data-target="#carousel" data-slide-to="3"></li>
+			<li data-target="#carousel" data-slide-to="5"></li>
+			<li data-target="#carousel" data-slide-to="6"></li>
+			<li data-target="#carousel" data-slide-to="7"></li>
+		</ol>
 
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="assets/images/1.jpg" alt="">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>...</h5>
+					<p>...</p>
+				</div>
+			</div>
+			<?php
+				foreach ($carousel_imgs_arr as $index => $imgs_arr) {
+					echo 
+					'<div class="carousel-item">
+						<img src="' . $imgs_arr . '" class="d-block w-100" alt="' . $carousel_alts_arr[$index] . '">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>...</h5>
+							<p>...</p>
+						</div>
+					</div>';
+				}
+			?>
+		</div>
+
+		<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	
 	<!-- headline section -->
 	<div class="nht-headline bg-primary py-5">
 		<div class="container">
