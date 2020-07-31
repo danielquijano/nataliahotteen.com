@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-1"></div>
 			<div class="col-lg-10">
-				<h4 class="text-primary text-md-center text-patua-one mb-0 h1">Awesome XXX Clips & Pictures</h4>
+				<h4 class="text-primary text-md-center nht-text-patua-one mb-0 h1">Awesome XXX Clips & Pictures</h4>
 				<p class="text-justify text-md-center mt-4 mb-5 lead">Here's what's coming up: Pretty ladies with gorgeous curvy bodies giving the world's greatest handjobs, the best insane deepthroat and the most incredible sloppy blowjob; nude chicks modeling exotic see-through lingerie, in the tiniest bikinis you have ever seen in highly seductive poses.</p>
 			</div>
 			<div class="col-lg-1"></div>

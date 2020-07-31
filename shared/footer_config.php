@@ -1,5 +1,5 @@
 <?php
-	// Sitemap
+	// sitemap
 	$sitemap_attrs = array(
 		array(
 			'url'   => $url_index,
@@ -12,22 +12,14 @@
 			'title' => '',
 		),
 		array(
-			'url'   => $url_members,
+			'url'   => $url_members_login,
 			'name'  => 'Members Login',
 			'title' => '',
 		),
 	);
 
-	// Models Wanted
-	$models_wanted_attrs = array(
-		array(
-			'url'   => $url_modelswanted,
-			'name'  => 'Models Wanted',
-			'title' => '',
-		),
-	);
 
-	// Agreement
+	// agreement
 	$agreement_attrs = array(
 		array(
 			'url'   => 'support.php',

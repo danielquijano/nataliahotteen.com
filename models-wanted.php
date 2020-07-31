@@ -23,7 +23,7 @@
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h1 class="text-warning text-md-center text-patua-one mb-0">¡Se Nuestra Próxima Modelo!</h1>
+						<h1 class="text-warning text-md-center nht-text-patua-one mb-0">¡Se Nuestra Próxima Modelo!</h1>
 						<p class="text-white text-justify text-md-center mt-4 mb-0 lead">Estamos bucando a las chicas más bonitass y hermosas que estén viviendo en México actualmente sin importar su nacionalidad para que se unan a nuestro increíble equipo de trabajo.</p>
 					</div>
 					<div class="col-lg-1"></div>
@@ -36,7 +36,7 @@
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h2 class="text-primary text-md-center text-patua-one mb-0 h1">Queremos Conocerte y Ver Tú Belleza</h2>
+						<h2 class="text-primary text-md-center nht-text-patua-one mb-0 h1">Queremos Conocerte y Ver Tú Belleza</h2>
 						<p class="text-md-center text-justify mt-4 mb-2">El proyecto es sobre fotografia y videos modelando sensualmente ropa muy coqueta como: micro shorts, leggings, mini faldas, tangas, lencería muy sensual, etc; la dinámica es desvestirse hasta exponer al menos los senos. Si no tienes experiencia modelando, no te preocupes, no importa, nosotros te guiamos. Envíanos algunas de tus fotos, no tienen que ser profesionales, unas selfies en tu baño son más que suficiente. Sólo siguen estas simples reglas:</p>
 						<p class="text-md-center font-weight-bold mb-0">1) Sin maquillaje &nbsp; 2) Muestra tu figura completa &nbsp; 3) Sin poses de modelo profesional.</p>
 					</div>
@@ -50,7 +50,7 @@
 				<div class="row">
 					<div class="col-lg-1"></div>
 					<div class="col-lg-10">
-						<h2 class="text-primary text-md-center text-patua-one mb-0 h1">¡Aplica Hoy Mismo!</h2>
+						<h2 class="text-primary text-md-center nht-text-patua-one mb-0 h1">¡Aplica Hoy Mismo!</h2>
 					</div>
 					<div class="col-lg-1"></div>
 				</div>
@@ -178,7 +178,7 @@
 								<div class="form-group col-md-4"></div>
 								<div class="form-group col-md-4">
 									<p class="text-center mb-0 mt-2">
-										<button type="submit" form="models_wanted_form" class="btn btn-primary btn-lg btn-block text-patua-one shadow">Enviar Información</button>
+										<button type="submit" form="models_wanted_form" class="btn btn-primary btn-lg btn-block nht-text-patua-one shadow">Enviar Información</button>
 									</p>
 								</div>
 								<div class="form-group col-md-4"></div>

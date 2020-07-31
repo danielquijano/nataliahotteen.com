@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-1"></div>
 			<div class="col-lg-10">
-				<h5 class="text-primary text-md-center text-patua-one mb-0 h1">Astonishing Features</h5>
+				<h5 class="text-primary text-md-center nht-text-patua-one mb-0 h1">Astonishing Features</h5>
 				<p class="text-justify text-md-center mt-4 mb-5 lead">By being a member you will have access to an extraordinary amount of HQ images, Full High-Def movies featuring fresh faces (nonprofessional performers going uncontrollably crazy), a clean viewing without distractions, and of course, every file can be streamed and downloaded to your preferred device.</p>
 			</div>
 			<div class="col-lg-1"></div>

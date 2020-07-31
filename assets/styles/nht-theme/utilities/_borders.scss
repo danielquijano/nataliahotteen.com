@@ -1,0 +1,22 @@
+// stylelint-disable property-blacklist, declaration-no-important
+
+//
+// Border-radius
+//
+
+.nht-rounded-sm {
+	border-radius: $border-radius-sm * 2 !important;
+}
+
+.nht-rounded {
+	border-radius: $border-radius * 2 !important;
+}
+
+.nht-rounded-lg {
+	border-radius: $border-radius-lg * 2 !important;
+}
+
+.nht-rounded-xl {
+	border-radius: $border-radius-lg * 2.5 !important;
+}
+  

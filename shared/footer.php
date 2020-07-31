@@ -3,7 +3,7 @@
 		<div class="row no-gutters">
 			<div class="col-6 col-md-4">
 				<div class="h-100 pl-5">
-					<p class="h2 text-primary text-uppercase text-patua-one mb-3">Site Map</p>
+					<p class="h2 text-primary text-uppercase nht-text-patua-one mb-3">Site Map</p>
 					<ul class="list-unstyled mb-0">
 						<?php 
 							foreach ($sitemap_attrs as $key => $value) {
@@ -16,7 +16,7 @@
 
 			<div class="col-6 col-md-4">
 				<div class="h-100 pl-5">
-					<p class="h2 text-primary text-uppercase text-patua-one mb-3">Agreement</p>
+					<p class="h2 text-primary text-uppercase nht-text-patua-one mb-3">Agreement</p>
 					<ul class="list-unstyled mb-0">
 						<?php
 							foreach ($agreement_attrs as $key => $value) {
@@ -29,7 +29,7 @@
 
 			<div class="col-12 col-md-4">
 				<div class="h-100 pl-5">
-					<p class="h2 text-primary text-uppercase text-patua-one mb-3">Support</p>
+					<p class="h2 text-primary text-uppercase nht-text-patua-one mb-3">Support</p>
 				</div>
 			</div>
 		</div>

@@ -36,62 +36,55 @@
 	// ipstack();
 
 
+
+	// define url variables
+	$url_join = 'join.php';
+	$url_index = 'index.php';
+	$url_members_login = 'members-login.php';
+
 	// get canonical url
 	$canonical_url_building = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	
-	// Identify URL and set values
+	// Identify current url and set values
 	switch($_SERVER['PHP_SELF']){
-		case '/webapps/nataliahotteen.com/index.php':
+		case '/nataliahotteen.com/index.php':
 			$title = 'Natalia Hot Teen';
 			$keywords = '';
 			$body_class = 'view-index';
-			$identifier = 'index';
+			$identifier = $url_index;
 			$description = '';
 			$canonical_url = $canonical_url_building;
 			break;
 
-		case '/webapps/nataliahotteen.com/join.php':
+		case '/nataliahotteen.com/join.php':
 			$title = 'Join Natalia Hot Teen';
 			$keywords = '';
 			$body_class = 'view-join';
-			$identifier = 'join';
+			$identifier = $url_join;
 			$description = '';
 			$canonical_url = $canonical_url_building;
 			break;
 
-		case '/webapps/nataliahotteen.com/members.php':
+		case '/nataliahotteen.com/members-login.php':
 			$title = 'Members Login';
 			$keywords = '';
-			$body_class = 'view-members';
-			$identifier = 'members';
-			$description = '';
-			$canonical_url = $canonical_url_building;
-			break;
-
-		case '/webapps/nataliahotteen.com/models-wanted.php':
-			$title = 'Models Wanted';
-			$keywords = '';
-			$body_class = 'view-models-wanted';
-			$identifier = 'modelswanted';
+			$body_class = 'view-members-login';
+			$identifier = $url_members_login;
 			$description = '';
 			$canonical_url = $canonical_url_building;
 			break;
 
 		default:
-			$title = '';
+			$title = 'Natalia Hot Teen';
 			$keywords = '';
 			$body_class = 'view-index';
-			$identifier = 'index';
+			$identifier = $url_index;
 			$description = '';
 			$canonical_url = $canonical_url_building;
 	}
 
 
-	// Urls
-	$url_join = 'join.php';
-	$url_index = 'index.php';
-	$url_members = 'members.php';
-	$url_modelswanted = 'models-wanted.php';
+
 
 
 	// navbar config
