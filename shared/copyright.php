@@ -1,4 +1,4 @@
-<div class="nht-copyright pt-5">
+<div class="nht-copyright mt-auto">
 	<div class="bg-primary py-3">
 		<div class="container">
 			<div class="row">

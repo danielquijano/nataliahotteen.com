@@ -8,19 +8,15 @@
 					border-width: 1px !important;
 					border-style: solid !important;
 					border-color: map-get($purples, "600") !important;
-
-					@include placeholder {
-						color: map-get($pinks, "400");
-					}
 				}
-	
+
 				.form-check {
 					position: inherit;
 					padding-left: 0;
 		
 					&-input {
 						@include transform(scale(1.30));
-		
+
 						position: inherit;
 						margin-left: 0;
 					}

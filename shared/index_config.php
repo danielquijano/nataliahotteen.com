@@ -1,9 +1,18 @@
 <?php 
-	// carousel
-	$carousel_imgs_dir = 'assets/images/carousel/';
+	// carousel sm images
+	$carousel_imgs_dir = 'assets/images/carousel-sm/';
 	$carousel_imgs_arr = glob($carousel_imgs_dir . '*.jpg');
 	$carousel_alts_arr = array('alt_uno', 'alt_dos', 'alt_tres', 'alt_cuatro', 'alt_cinco', 'alt_seis', 'alt_siete');
 
+	// carousel md images
+	$carousel_imgs_dir = 'assets/images/carousel-md/';
+	$carousel_imgs_arr = glob($carousel_imgs_dir . '*.jpg');
+	$carousel_alts_arr = array('alt_uno', 'alt_dos', 'alt_tres', 'alt_cuatro', 'alt_cinco', 'alt_seis', 'alt_siete');
+
+	// carousel lg images
+	$carousel_imgs_dir = 'assets/images/carousel-lg/';
+	$carousel_imgs_arr = glob($carousel_imgs_dir . '*.jpg');
+	$carousel_alts_arr = array('alt_uno', 'alt_dos', 'alt_tres', 'alt_cuatro', 'alt_cinco', 'alt_seis', 'alt_siete');
 
 
 	// real babes section

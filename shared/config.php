@@ -38,8 +38,8 @@
 
 
 	// define url variables
-	$url_join = 'join.php';
 	$url_index = 'index.php';
+	$url_join = 'join.php';
 	$url_members_login = 'members-login.php';
 
 	// get canonical url

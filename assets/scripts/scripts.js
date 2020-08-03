@@ -61,7 +61,7 @@ $(document).ready(function () {
 		if (!sessionStorage.getItem('cookie-alert')) {
 			setInterval(function () {
 				$('.js-cookie-alert').addClass('show');
-			}, 500);
+			}, 3000);
 
 			$('.js-cookie-alert [data-dismiss=alert]').on('click', function () {
 				// set cookie-alert true

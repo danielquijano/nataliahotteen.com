@@ -108,6 +108,8 @@ $theme-colors: map-merge(
 	$theme-colors
 );
 
+$input-placeholder-color:     map-get($map: $pinks, $key: "300") !default;
+
 $font-size-base:              1rem !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;

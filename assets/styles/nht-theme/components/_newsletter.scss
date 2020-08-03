@@ -1,14 +1,16 @@
 .nht-newsletter {
-	form {
-		.form-check {
-			position: inherit;
-			padding-left: 0;
-
-			&-input {
-				@include transform(scale(1.35));
-
+	.bg-primary {
+		form {
+			.form-check {
 				position: inherit;
-				margin-left: 0;
+				padding-left: 0;
+	
+				&-input {
+					@include transform(scale(1.35));
+	
+					position: inherit;
+					margin-left: 0;
+				}
 			}
 		}
 	}
