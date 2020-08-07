@@ -51,7 +51,7 @@
 			$title = 'Natalia Hot Teen';
 			$keywords = '';
 			$body_class = 'view-index';
-			$identifier = $url_index;
+			$identifier = $body_class;
 			$description = '';
 			$canonical_url = $canonical_url_building;
 			break;
@@ -60,7 +60,7 @@
 			$title = 'Join Natalia Hot Teen';
 			$keywords = '';
 			$body_class = 'view-join';
-			$identifier = $url_join;
+			$identifier = $body_class;
 			$description = '';
 			$canonical_url = $canonical_url_building;
 			break;
@@ -69,7 +69,7 @@
 			$title = 'Members Login';
 			$keywords = '';
 			$body_class = 'view-members-login';
-			$identifier = $url_members_login;
+			$identifier = $body_class;
 			$description = '';
 			$canonical_url = $canonical_url_building;
 			break;

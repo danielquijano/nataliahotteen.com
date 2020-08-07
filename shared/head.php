@@ -13,15 +13,10 @@
 <link rel="stylesheet" media="screen" href="assets/styles/css/bootstrap.min.css">
 
 <?php
-    if($identifier == 'index'){
-        echo '
-            <link rel="preload" href="assets/images/carousel/1.jpg" as="image">
-            <link rel="preload" href="assets/images/carousel/2.jpg" as="image">
-            <link rel="preload" href="assets/images/carousel/3.jpg" as="image">
-            <link rel="preload" href="assets/images/carousel/4.jpg" as="image">
-            <link rel="preload" href="assets/images/carousel/5.jpg" as="image">
-            <link rel="preload" href="assets/images/carousel/6.jpg" as="image">
-        ';
+    if($identifier == 'view-index'){
+        foreach ($preload_carousel_imgs as $value) {
+            echo '<link rel="preload" href="' . $value['img-lg'] . '" as="image">';
+        }
     }
 ?>
 

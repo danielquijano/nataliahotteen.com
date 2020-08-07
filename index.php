@@ -31,19 +31,16 @@
 			</ol>
 
 			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="d-block w-100" src="assets/images/1.jpg" alt="">
-					<div class="carousel-caption d-none d-md-block">
-						<h5>...</h5>
-						<p>...</p>
-					</div>
-				</div>
-
 				<?php
-					foreach ($carousel_imgs_arr as $index => $imgs_arr) {
+					foreach ($carousel_imgs_attrs as $value) {
 						echo 
 						'<div class="carousel-item">
-							<img src="' . $imgs_arr . '" class="d-block w-100" alt="' . $carousel_alts_arr[$index] . '">
+							<picture>
+								<source srcset="' . $value['img-xl'] . '" media="(min-width: 1280px)">
+								<source srcset="' . $value['img-lg'] . '" media="(min-width: 900px)">
+								<img class="d-block w-100" src="' . $value['img-md'] . '" srcset="' . $value['img-md'] . '" alt="">
+							</picture>
+
 							<div class="carousel-caption d-none d-md-block">
 								<h5>...</h5>
 								<p>...</p>
@@ -95,8 +92,8 @@
 							'<div class="' . $value['col'] . '">
 								<a href="' . $value['url'] . '">
 									<picture>
-										<source class="lazy" media="(max-width: 767px)" srcset="' . $value['img-sm'] . '">
-										<img class="img-fluid lazy" alt="' . $value['alt'] . '" title="" src="' . $value['img-lg'] . '">
+										<source media="(max-width: 767px)" srcset="' . $value['img-sm'] . '">
+										<img class="img-fluid" alt="' . $value['alt'] . '" title="" src="' . $value['img-lg'] . '">
 									</picture>
 								</a>
 							</div>';
@@ -125,7 +122,7 @@
 								echo
 									'<a href="' . $value['url'] . '">
 										<div class="card mb-1">
-											<img class="card-img" src="' . $value['image'] . '" alt="' . $value['alt'] . '" title="">
+											<img loading="lazy" class="card-img" src="' . $value['image'] . '" alt="' . $value['alt'] . '" title="">
 
 											<div class="card-img-overlay p-0">
 												<p class="card-title text-warning text-uppercase font-weight-bold mt-2 mb-0 px-3">' . $value['title'] . '</p>

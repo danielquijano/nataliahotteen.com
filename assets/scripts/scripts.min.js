@@ -1,6 +1,13 @@
 $(document).ready(function () {
 	// on ready events
 
+
+	// carousel - add active class
+	$(function() {
+		$('.carousel-item:first-child').addClass('active');
+	})
+
+
 	// warningModal function: launch a modal with a warning message
 	function WarningModal() {
 		'use strict';

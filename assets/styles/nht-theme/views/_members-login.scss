@@ -1,27 +1,13 @@
 ﻿.view-members-login {
 	.login {
-        // padding: 2.5rem 0 4.5rem;
-
-		form {
-			.form-group {
-				.form-control {
-					border-width: 1px !important;
-					border-style: solid !important;
-					border-color: map-get($purples, "600") !important;
+		.form-check {
+			&-label {
+				cursor: pointer;
+	
+				input[type=checkbox] {
+					@include transform(scale(1.35));
 				}
-
-				.form-check {
-					position: inherit;
-					padding-left: 0;
-		
-					&-input {
-						@include transform(scale(1.30));
-
-						position: inherit;
-						margin-left: 0;
-					}
-				}	
 			}
-		}	
+		}
 	}
 }

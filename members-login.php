@@ -51,9 +51,9 @@
 
 									<div class="d-flex justify-content-around">
 										<div class="form-group mb-0">
-											<div class="form-check text-center">
+											<div class="form-check">
 												<label class="form-check-label text-white btn-sm" for="rememberme">
-													<input class="form-check-input" type="checkbox" id="rememberme">&nbsp; Remember me
+													<input class="form-check-input" type="checkbox" id="rememberme">&nbsp;Remember me
 												</label>
 											</div>
 										</div>

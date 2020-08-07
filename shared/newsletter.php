@@ -10,8 +10,8 @@
 
 					<form action="" method="post" id="newsletter_form" class="js-form-validation" novalidate="novalidate">
 						<div class="form-row">
-							<div class="col"></div>
-							<div class="col-8">
+							<div class="col-1 col-md-2"></div>
+							<div class="col-10 col-md-8">
 								<div class="input-group">
 									<div class="input-group-prepend">
 										<div class="input-group-text bg-secondary border-0"><i class="mdi mdi-email mdi-24px mdi-light"></i></div>
@@ -21,15 +21,15 @@
 								</div>
 
 								<div class="input-group d-flex justify-content-center">
-									<div class="form-check mt-3 pl-1">
+									<div class="form-check mt-3">
 										<label class="form-check-label text-white" for="terms">
-											<input class="form-check-input" type="checkbox" id="terms" required>&nbsp; I herby confirm that I have read and understood the Privacy Policy.
+											<input class="form-check-input" type="checkbox" id="terms" required>&nbsp;I herby confirm that I have read and understood the Privacy Policy.
 											<div class="invalid-feedback bg-danger text-white py-1 px-2 rounded shadow-sm">Accept our privacy policy.</div>
 										</label>
 									</div>
 								</div>
 							</div>
-							<div class="col"></div>
+							<div class="col-1 col-md-2"></div>
 						</div>
 
 						<div class="input-group">

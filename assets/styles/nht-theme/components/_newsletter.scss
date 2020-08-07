@@ -1,16 +1,10 @@
 .nht-newsletter {
-	.bg-primary {
-		form {
-			.form-check {
-				position: inherit;
-				padding-left: 0;
-	
-				&-input {
-					@include transform(scale(1.35));
-	
-					position: inherit;
-					margin-left: 0;
-				}
+	.form-check {
+		&-label {
+			cursor: pointer;
+
+			input[type=checkbox] {
+				@include transform(scale(1.35));
 			}
 		}
 	}
