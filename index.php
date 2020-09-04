@@ -36,7 +36,7 @@
 						echo 
 						'<div class="carousel-item">
 							<picture>
-								<source srcset="' . $value['img-xl'] . '" media="(min-width: 1280px)">
+								<source srcset="' . $value['img-xl'] . '" media="(min-width: 1315px)">
 								<source srcset="' . $value['img-lg'] . '" media="(min-width: 900px)">
 								<img class="d-block w-100" src="' . $value['img-md'] . '" srcset="' . $value['img-md'] . '" alt="">
 							</picture>
@@ -52,11 +52,9 @@
 
 			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
 			</a>
 			<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
 			</a>
 		</div>
 		
@@ -92,8 +90,8 @@
 							'<div class="' . $value['col'] . '">
 								<a href="' . $value['url'] . '">
 									<picture>
-										<source media="(max-width: 767px)" srcset="' . $value['img-sm'] . '">
-										<img class="img-fluid" alt="' . $value['alt'] . '" title="" src="' . $value['img-lg'] . '">
+										<source srcset="' . $value['img-lg'] . '" media="(min-width: 768px)">
+										<img class="img-fluid" alt="' . $value['alt'] . '" title="" src="' . $value['img-md'] . '">
 									</picture>
 								</a>
 							</div>';
