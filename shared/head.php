@@ -17,7 +17,7 @@
 	}
 ?>
 
-<link rel="stylesheet" media="screen" href="assets/styles/css/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 <link rel="stylesheet" media="screen" href="assets/styles/css/bootstrap.min.css">
 
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
